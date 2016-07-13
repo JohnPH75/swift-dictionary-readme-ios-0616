@@ -28,3 +28,6 @@ definition = favoriteWords["strategery"]
 
 favoriteWords["strategery"] = nil
 print(favoriteWords)
+
+favoriteWords.updateValue("myDefinition", forKey: "myWord")
+print(favoriteWords)
